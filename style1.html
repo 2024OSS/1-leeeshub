@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font: 100% Lucida Sans, Verdana;
+        margin: 25px;
+      }
+
+      #top {
+        background-color: #04aa6d;
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+      }
+
+      #top h1, p {
+        margin: 0;
+        padding: 0;
+        line-height: 110%;
+      }
+
+      #container {
+        margin-top: 10px;
+        height: 350px;
+        display: flex;
+      }
+
+      #container p {
+        line-height: 170%;
+      }
+
+      #menu {
+        width: 15%;
+      }
+
+      #menu ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      #menu li {
+        list-style-type: none;
+        border-radius: 4px;
+        padding: 5px 1px;
+        margin-bottom: 3px;
+      }
+
+      .menuitem {
+        background-color: #f1f1f1;
+        border: 1px solid #d4d4d4;
+      }
+
+      .menusheet1 {
+        background-color: #04aa6d;
+        border: 1px solid #d4d4d4;
+        font-weight: bold;
+      }
+
+      #menu li a {
+        display: block;
+        margin: 1px;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+      }
+
+      #main {
+        width: 68%;
+        margin: 0px 25px;
+      }
+
+      #main h1 {
+        margin: 15px 0px;
+      }
+
+      #main a {
+        color: black;
+      }
+
+      #side-bar {
+        background-color: #32a4e7;
+        padding: 10px;
+        border-radius: 5px;
+        width: 14%;
+      }
+
+      #footer {
+        background-color: #f1f1f1;
+        border: 1px solid #d4d4d4;
+        border-radius: 4px;
+        clear: both;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 70%;
+        line-height: 15px;
+      }
+
+      .white {
+        color: white;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="top">
+      <h1>Welcome to Hyoin's Homepage 22100606</h1>
+      <p>Use the menu to select different Stylesheets</p>
+    </div>
+
+    <div id="container">
+      <div id="menu">
+        <ul>
+          <li class="menusheet1"><a href="style1.html" style="color: white">Stylesheet 1</a></li>
+          <li class="menuitem"><a href="">Stylesheet 2</a></li>
+          <li class="menuitem"><a href="style2.html">Stylesheet 3</a></li>
+          <li class="menuitem"><a href="">Stylesheet 4</a></li>
+          <li class="menuitem"><a href="nostyle.html">No Stylesheet</a></li>
+        </ul>
+      </div>
+
+      <div id="main">
+        <h1>Same Page Different Stylesheets</h1>
+        <p>
+          This is a demonstration of how different stylesheets can change the
+          layout of your HTML page. You can change the layout of this page by
+          selecting different stylesheets in the menu, or by selecting one of
+          the following links:<br />
+          <a href="style1.html">Stylesheet1</a>, <a href="">Stylesheet2</a>,
+          <a href="style2.html">Stylesheet3</a>, <a href="">Stylesheet4</a>.
+        </p>
+
+        <h2>No Styles</h2>
+        <p>
+          This page uses DIV elements to group different sections of the HTML
+          page. Click here to see how the page looks like with no stylesheet:<br />
+          <a href="nostyle.html">No Stylesheet</a>.
+        </p>
+      </div>
+
+      <div id="side-bar" class="white">
+        <h3>Side-Bar</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat.
+        </p>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+        volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+        molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+        eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+        zzril delenit augue duis dolore te feugait nulla facilisi.
+      </p>
+    </div>
+  </body>
+</html>
