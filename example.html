@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+
+
+        line-height: 150%;
+
+        margin: 20px 9%;
+      }
+
+      #header {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 440;
+        margin: 1.3rem 0px;
+      }
+      
+      #header img {
+        margin-right: 8px;
+      }
+
+      #main-container {
+        margin: 1.5rem 0px;
+      }
+
+      #main1 {
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        padding: 5rem 3.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      #main1 p {
+        width: 65%;
+        font-size: 1.5rem;
+        line-height: 150%;
+      }
+
+      #main-bottom {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #main-bottom div {
+        flex-basis: 49%;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 3rem;
+      }
+
+      #main2 {
+        background-color: #212529;
+        color: white;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        margin: 0.6rem 0px;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+
+      #main3 {
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+      }
+
+      hr {
+        border: 0.2px solid #dee2e6;
+      }
+
+      .main1button {
+        background-color: #0d6efd;
+        border: none;
+        color: white;
+        border-radius: 7px;
+        padding: .8rem 1rem;
+        font-size: 1.2rem;
+      }
+
+      .main2button {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
+        padding: .6rem .8rem;
+        font-size: 1rem;
+      }
+
+      .main3button {
+        background-color: transparent;
+        border: 1px solid #6c757d;
+        color: #6c757d;
+        border-radius: 5px;
+        padding: .6rem .8rem;
+        font-size: 1rem;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div id="header">
+      <img src="./img/bootstrap-logo-black.svg" width="40"/>
+      <span>Jumbotron example</span>
+    </div>
+    <hr />
+
+    <div id="main-container">
+      <div id="main1">
+        <h1>Custom jumbotron</h1>
+        <p>
+          Using a series of utilities, you can create this jumbotron, just like
+          the one in previous versions of Bootstrap. Check out the examples
+          below for how you can remix and restyle it to your liking.
+        </p>
+        <button class="main1button">Example button</button>
+      </div>
+
+      <div id="main-bottom">
+        <div id="main2">
+          <h2>Change the background</h2>
+          <p>
+            Swap the background-color utility and add a `.text-*` color utility
+            to mix up the jumbotron look. Then, mix and match with additional
+            component themes and more.
+          </p>
+          <button class="main2button">Example button</button>
+        </div>
+
+        <div id="main3">
+          <h2>Add borders</h2>
+          <p>
+            Or, keep it light and add a border for some added definition to the
+            boundaries of your content. Be sure to look under the hood at the
+            source HTML here as we've adjusted the alignment and sizing of both
+            column's content for equal-height.
+          </p>
+          <button class="main3button">Example button</button>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p style="color: #6c757d">© 2024</p>
+  </body>
+</html>
